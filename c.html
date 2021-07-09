@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1st</title>
+        <style>
+            
+        header{
+            height:100px;
+            width:1200px;
+            border:1px solid black;
+            text-align:center;
+            font-size:70px;
+            background-color:limegreen;
+            color:white;
+        }
+            div{
+                border:1px solid black;
+                height : 400px;
+                width:1200px;
+               
+            }
+            .id{
+                height:380px;
+                width:200px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            .pd{
+                position: absolute;
+                height: 380px;
+                width:980px;
+            margin-right: 156px;
+                right: 3px;
+            }
+            .sd{
+                position: absolute;
+                left:20px;
+                height: 250px;
+                margin-left: 3px;
+                margin-top: 3px;
+                margin: 1px;
+                width: 196px;
+            }
+            .pp{
+                position: absolute;
+                height: 100px;
+                width:976px;
+                margin-left: 1px;
+                padding-right :-5px;
+                margin-top: 1px;
+            }
+            .ss{
+                position: absolute;
+                height: 260px;
+                width: 975px;
+                margin-left: 1px;
+                bottom: 10px;
+            }
+             
+        </style>
+    </head>
+    <body  >
+        <header>Flight search engine</header>
+        <div>
+            <div class="id">
+                <div class="sd">
+                    <form>     
+                        <label for="Enter origin city">Enter origin city<label>
+                        <input type="text" name="city" ><br>
+                        <label for="Enter origin city">Enter destination city<label>
+                        <input type="text" name="city"  ><br>
+                            <label for="Departure date">Departure date</label>    
+                        <input type="date" name="departure date" value="departure date"><br>
+                            <label for="Return date">Return date</label>  <br>  
+                        <input type="date" name="return date" value="return date"><br>
+                             
+                            <select>
+                                <option value="passenger">Select passenger</option>
+                                <option value="passenger">1</option>
+                                <option value="passenger">2</option>
+                                <option value="passenger">3</option>
+                                <option value="passenger">4</option>
+                                <option value="passenger">5</option>
+                            </select><br>
+                         <input type="button" value="Search"> 
+                    </form>
+                </div>
+                <div class="pd">
+                    <div class="ss"></div>
+                    <div class="pp"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
